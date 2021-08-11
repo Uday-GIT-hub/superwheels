@@ -1,0 +1,494 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color:rgb(20, 20, 20);
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.login{
+    color:blue;
+}
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+.nav-width{
+    background-color: rgb(221, 216, 216);
+    color:black
+}
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.heading{
+    color:black;
+    font-size:20px;
+    font-weight: 600;
+}
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    margin: 0 auto 0;
+}
+.img{
+    float:right;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.mySlides{
+    display: none;
+   
+}
+.col-lg-7>img{
+    cursor: pointer;
+}
+
+ /* Next & previous buttons */
+.prev, .next{
+    cursor: pointer;
+    position:relative;
+    top: 50%;
+    width: auto;
+   
+    padding: 16px;
+    color: rgb(1, 0, 8);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next {
+    margin-left:10px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    color:white;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+
+.about{
+    letter-spacing: 2px;
+    font-size: 14px;
+
+}
+
+.container1 {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .overlay {
+    opacity: 0.65;
+  }
+
+  
+  ul{
+    list-style-position:outside;
+    list-style-image: url(../img/bullet.png);
+  }
+  .list>li{
+    margin-top: 10px;
+    padding:5px;
+  }
+  .list1>li{
+    border-left: 6px solid rgb(1, 54, 97);
+    background-color: rgb(224, 224, 224);
+}
+.list2>li{
+    border-left: 6px solid #c72e00;
+    background-color: rgb(249, 250, 199);
+}
+.list3>li{
+    border-left: 6px solid #b46c00;;
+    background-color: #fcedd2;
+}
+.list4>li{
+    border-left: 6px solid rgb(0, 134, 0);
+    background-color: #e6fdd6;
+}
+.list5>li{
+    border-left: 6px solid #8d3f00;
+    background-color: #fae3d0;
+}
+  
+li:first-child {
+    margin-top:0;
+}
+.head{
+    font-weight:600;
+}
+.list>li>span{
+    font-size: 15px;
+}
+
+.tablink {
+    margin-left:zero;
+    background-color: rgb(110, 110, 110);
+    color:black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 20%;
+    
+  }
+  
+  .tablink:hover {
+    background-color: rgb(182, 182, 182);
+    color:black;
+    height: 100%;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    display: none;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+  }
+  
+  #ModelX {background-color:#82ccdd;}
+  #ModelP {background-color:#f6e58d;}
+  #ModelT {background-color:#fad390;}
+  #ModelS {background-color:#b8e994;}
+  #ModelR {background-color:#fcc598;}
+  .button{
+    position:relative;
+    left:50%;
+    bottom:0;
+    background-color: rgb(110, 110, 110);
+    color:black;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 20%;
+    margin-bottom:20px;
+  }
+  .button:hover {
+    background-color: rgb(182, 182, 182);
+    color:black;
+    height: 100%;
+  }
+.Xbtn{
+    background-color:rgb(224, 224, 224);
+}
+.Pbtn{
+    background-color:rgb(249, 250, 199);
+}
+.Tbtn{
+    background-color:#fcedd2;
+}
+.Sbtn{
+    background-color: #e6fdd6;
+}
+.Rbtn{
+    background-color: #fae3d0;
+
+}
+
+
+
+
+.box1 {
+   
+    margin-bottom: 20px;
+    padding: 30px 20%;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+    
+}
+
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .tabcontent:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+      .box1:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+   
+}
+
+
+@media screen and (max-width:1200px) {
+   .prev{
+       margin-left:10px;
+   }
+   .next{
+       margin-right:0px;
+   }
+   .img{
+    float:none;
+    
+   }
+    .nav>li>a[href="logout.php"]{
+        font-size:15px;
+        letter-spacing:1px;
+    }
+   
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .img{
+    float:none;
+ }
+    .img-left{
+    float:none;
+    margin:auto;
+ }
+
+  .col-lg-5>p ,.col-lg-5>h4 {
+    text-align:center;
+ }
+
+  .width{
+    width:80%;
+ }
+ .text{
+    font-size:30px;
+  }
+}
+@media screen and (max-width:530px) {
+
+    .tablink {
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        width: 20%;
+        
+      }
+      .button{
+        position:relative;
+        left:35%;
+        bottom:0;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        width: 30%;
+        height:50px;
+        margin-bottom:20px;
+      }
+      button[type=submit]{
+        width:30%;
+    }
+   
+}
+@media screen and (max-width:990px) {
+    .center{
+        text-align:justify;
+    }
+}
+@media screen and (min-width:990px) {
+    .center{
+        text-align:center;
+    }
+}
